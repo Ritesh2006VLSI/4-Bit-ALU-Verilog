@@ -53,6 +53,8 @@ Vivado project and add the provided Verilog source and testbench files
 to reproduce the simulation results.
 
 ## Project Structure
+
+```text
 4_Bit_ALU/
 │── alu.v
 │── alu_tb.v
@@ -60,20 +62,20 @@ to reproduce the simulation results.
 │── README.md
 │
 ├── circuit/
-│ └── circuit_diagram.png
+│   └── circuit_diagram.png
 │
 └── Results/
-├── truth_table_output.png
-└── simulation/
-├── add.png
-├── sub.png
-├── and.png
-├── or.png
-├── xor.png
-├── not_a.png
-├── inc_a_by_1.png
-└── dec_a_by_1.png
-
+    ├── truth_table_output.png
+    └── simulation/
+        ├── add.png
+        ├── sub.png
+        ├── and.png
+        ├── or.png
+        ├── xor.png
+        ├── not_a.png
+        ├── inc_a_by_1.png
+        └── dec_a_by_1.png
+```
 ## Author
 Ritesh Kumar
 
